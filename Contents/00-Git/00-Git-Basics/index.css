@@ -1,0 +1,12 @@
+p  {
+    color: red;
+    animation-name: color_change;
+    animation-duration: 3s; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes color_change {
+    0% {color: red;}
+    50% {color: green}
+    100% {color: red;}
+  }
